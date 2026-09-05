@@ -1,0 +1,84 @@
+/* Basic CSS Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+}
+
+header {
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    background-color: #555555;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+a:link {
+    color: #333333;
+}
+
+a:visited {
+    color: #333333;
+}
+
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: #333333;
+}
+
+p {
+    color: #333333;
+}
+
+.special {
+    color: white;
+    background-color: #cc3333;
+    padding: 10px;
+}
+
+.section {
+    background-color: #dddddd;
+    padding: 15px;
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+    padding: 15px;
+}
+#special {
+    color: #cc3333;
+}
+.highlight {
+    color: #cc3333;
+}
