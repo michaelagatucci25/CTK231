@@ -1,5 +1,5 @@
 body {
-    background-image: url("a5bg.png");
+    background: url("a5bg.png") repeat;
     margin: 0;
     padding: 0;
 }
