@@ -1,0 +1,76 @@
+body {
+    background-color: #999999;
+}
+
+#wrapper {
+    margin: 24px auto;
+    width: 1200px;
+    border: 1px solid black;
+    padding: 24px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+}
+
+header {
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    border-bottom: 1px solid black;
+}
+
+header h1 {
+    grid-column: span 6;
+}
+
+nav {
+    grid-column: span 6;
+    text-align: right;
+}
+
+nav a {
+    margin-left: 20px;
+}
+
+#home {
+    grid-column: span 12;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+#home img {
+    width: 50%;
+}
+
+#music {
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+#music h2 {
+    grid-column: span 12;
+}
+
+.project {
+    grid-column: span 4;
+}
+
+.project img {
+    width: 100%;
+}
+
+#about {
+    grid-column: span 12;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+#contact {
+    grid-column: span 12;
+    text-align: center;
+}
