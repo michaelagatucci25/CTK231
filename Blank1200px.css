@@ -35,9 +35,6 @@ nav a {
 
 main {
     grid-column: span 12;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-column-gap: 24px;
 }
 
 section {
@@ -46,35 +43,39 @@ section {
     padding: 20px 0;
 }
 
-section h2 {
+h2 {
     text-align: center;
 }
 
-section img {
+/* THIS KEEPS ALL IMAGES FROM BEING MASSIVE */
+img {
     max-width: 100%;
-    height: 200px;
-    object-fit: contain;
+    height: auto;
     display: block;
     margin: 10px auto;
 }
 
-#home {
-    grid-column: span 12;
+/* Portfolio image */
+#home img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
 }
 
-#music {
-    grid-column: span 12;
+/* Project images */
+#music img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    display: inline-block;
+    margin: 10px;
 }
 
 #about {
-    grid-column: span 12;
+    text-align: center;
 }
 
 #contact {
-    grid-column: span 12;
+    text-align: center;
     border-bottom: none;
-}
-
-footer {
-    grid-column: span 12;
 }
