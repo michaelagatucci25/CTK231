@@ -79,3 +79,43 @@ img {
     text-align: center;
     border-bottom: none;
 }
+
+/* Assignment: CSS Effects and Web Fonts */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px #999999;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px #999999;
+}
+
+nav a {
+    display: inline-block;
+    transition: color 0.5s, transform 0.5s;
+}
+
+nav a:hover {
+    color: #cc6666;
+    transform: scale(1.1);
+}
+
+/* Bootstrap Icon Styling */
+
+#contact i {
+    font-size: 32px;
+    margin: 10px;
+    color: #cc6666;
+    transition: color 0.5s, transform 0.5s;
+}
+
+#contact i:hover {
+    color: #333333;
+    transform: scale(1.2);
+}
